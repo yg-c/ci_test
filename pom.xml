@@ -4,7 +4,7 @@
 	<artifactId>test-maven</artifactId>
 	<version>1</version>
 	<packaging>war</packaging>
-	<properties>
-    	<webXml>/etc/tomcat8/web.xml</webXml>
-	</properties>
+
+    	<webxml>/etc/tomcat8/web.xml</webxml>
+
 </project>
