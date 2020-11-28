@@ -1,3 +1,11 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>test</groupId>
+	<artifactId>test-maven</artifactId>
+	<version>1</version>
+	<packaging>war</packaging>
+
+
 <plugins>
            <plugin>
                <artifactId>maven-war-plugin</artifactId>
@@ -13,4 +21,5 @@
                    <target>1.8</target>
                </configuration>
            </plugin>
-       </plugins>
+       </plugins>	
+</project>
