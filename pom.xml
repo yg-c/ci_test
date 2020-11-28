@@ -1,16 +1,10 @@
 <project>
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>test</groupId>
-            <artifactId>test-maven</artifactId>
-            <version>1</version>
-            <packaging>war</packaging>
-            <configuration>
-                <failOnMissingWebXml>false</failOnMissingWebXml>
-            </configuration>
-        </plugin>
-        
-    </plugins>
-  </build>	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>test</groupId>
+	<artifactId>test-maven</artifactId>
+	<version>1</version>
+	<packaging>war</packaging>
+	<configuration>
+                    <webXml>WebContent\WEB-INF\web.xml</webXml>
+                </configuration>
 </project>
